@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Shopping Cart Course Discoveryvip.com</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <style>
+        #output {
+            clear: both;
+        }
+        
+        #checkoutdiv {
+            display: none;
+        }
+        
+        .footer {
+            background-color: darkgrey;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="htop">
+            <div id="checkoutdiv " class="container">
+                <div class="row">
+                    <div class="col-md-6 text-xs-right ">(<span class="items text-muted"></span> <small>items</small>) <span class="total"></span> </div>
+                    <div class="col-md-6 text-xs-right"> <span class="btn btn-success" data-toggle="modal" data-target="#cart">Open Shopping Cart</span><a href="checkout.html" class="btn btn-primary">Proceed to checkout</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="hbot">
+            <div class="container">
+                <nav class="navbar navbar-full navbar-dark bg-inverse">
+                    <button class="navbar-toggler light float-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#nvbar"></button>
+                    <div id="nvbar" class="collapse navbar-toggleable-xs">
+                        <ul class="nav navbar-nav float-sm-right ">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <!-- content changes on each page -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-block">
+                            <h3 class="card-title">Butter Chicken</h3>
+                            <h6 class="card-subtitle text-muted">₹300</h6> <img src="img/3.jpg" class="img-fluid"> </div>
+                        <div class="card-block">
+                            <div class="card-text">Butter Chicken! The name alone can make you want to enjoy this ever-so-popular Indian dish. Butter Chicken continues to be hit amongst Indians and foreigners alike, especially those who want a taste of Indian cuisine. <a href="#" class="card-link productItem btn btn-primary " class="add-to-cart" data-name="Butter Chicken" data-s="Non-Veg" data-price="300" data-id="1">Add to Cart</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-block">
+                            <h3 class="card-title">Chicken Biryani</h3>
+                            <h6 class="card-subtitle text-muted">₹90</h6> <img src="img/5.jpg" class="img-fluid"> </div>
+                        <div class="card-block">
+                            <div class="card-text">Chicken Biryani is a delicious savory rice dish that's loaded with spicy marinated chicken, caramelized onions, and flavorful saffron rice. <a href="#" class="productItem btn btn-primary" class="add-to-cart" data-name="Chicken Biryani" data-s="Non-Veg" data-price="90" data-id="2">Add to Cart</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-block">
+                            <h3 class="card-title">Chicken Rogan Josh</h3>
+                            <h6 class="card-subtitle text-muted">₹200</h6> <img src="img/6.jpg" class="img-fluid"> </div>
+                        <div class="card-block">
+                            <div class="card-text">Chicken Rogan Josh Recipe,comes from the northest Indian state of Kashmir which is famous for its breathtaking beauty and chili. <a href="#" class="productItem btn btn-primary" class="add-to-cart" data-name="Chicken Rogan Josh" data-s="Non-Veg" data-price="200" data-id="3">Add to Cart</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-block">
+                            <h3 class="card-title">Chicken Nizami</h3>
+                            <h6 class="card-subtitle text-muted">₹300</h6> <img src="img/1.jpg" class="img-fluid"> </div>
+                        <div class="card-block">
+                            <div class="card-text">Murgh nizami is a wonderful chicken dish that is cooked with cashew nuts, peanuts, sesame seeds, coconut, yogurt, and spices and garnished with coriander, lemons, garam masala that really makes this a mouthwatering and rich chicken dish that all must try. <a href="#" class="productItem btn btn-primary" class="add-to-cart" data-name="Chicken Nizami" data-s="Non-Veg" data-price="300" data-id="4">Add to Cart</a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-block">
+                            <h3 class="card-title">Chicken Stew</h3>
+                            <h6 class="card-subtitle text-muted">₹200</h6> <img src="img/15.jpg" class="img-fluid"> </div>
+                        <div class="card-block">
+                            <div class="card-text">This homemade Chicken Stew is just what you need to cozy up to after a long day! It calls for simple ingredients that together create a delicious final product. This is a hearty recipe everyone will enjoy! <a href="#" class="productItem btn btn-primary" class="add-to-cart" data-name="Chicken Stew" data-s="Non-Veg" data-price="200" data-id="5">Add to Cart</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-block">
+                            <h3 class="card-title">Chicken Korma</h3>
+                            <h6 class="card-subtitle text-muted">₹200</h6> <img src="img/16.jpg" class="img-fluid"> </div>
+                        <div class="card-block">
+                            <div class="card-text">Korma is a gravy dish that is usually made with yogurt, lots of nuts and spices. A Mughal era original, Chicken Korma is the perfect dinner party dish that is easy, quick and a no fuss recipe. <a href="#" class="productItem btn btn-primary" class="add-to-cart" data-name="Chicken Korma" data-s="Non-Veg" data-price="200" data-id="6">Add to Cart</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-block">
+                            <h3 class="card-title">Chilli Paneer</h3>
+                            <h6 class="card-subtitle text-muted">₹150</h6> <img src="img/7.jpg" class="img-fluid"> </div>
+                        <div class="card-block">
+                            <div class="card-text">Chilli Paneer is a popular Indo-Chinese recipe eaten as an appetizer or main course as well <a href="#" class="productItem btn btn-primary" class="add-to-cart" data-name="Chilli Paneer" data-s="Veg" data-price="150" data-id="7">Add to Cart</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-block">
+                            <h3 class="card-title">Green Chicken</h3>
+                            <h6 class="card-subtitle text-muted">₹200</h6> <img src="img/10.jpg" class="img-fluid"> </div>
+                        <div class="card-block">
+                            <div class="card-text">Goan Green chicken curry is an amazing infusion of Indian flavors with chicken in Goan style. <a href="#" class="productItem btn btn-primary" class="add-to-cart" data-name="Green Chicken" data-s="Non-Veg" data-price="200" data-id="8">Add to Cart</a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p class="text-xs-center">&copy; Home To Home Food </p>
+        </div>
+    </footer>
+    <!-- Modals -->
+    <div class="modal fade" id="cart" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">�</button>
+                    <h4 class="modal-title">Shopping Cart</h4></div>
+                <div class="modal-body">
+                    <table class="table table-hover">
+                        <thead class="thead-inverse">
+                            <tr>
+                                <th>Qty</th>
+                                <th>Item Name</th>
+                                <th>Cost</th>
+                                <th class="text-xs-right">Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody id="output"> </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-dismiss="modal">Continue Shopping</button><a href="checkout.html" class="btn btn-primary">Proceed to checkout</a></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+    <script>
+        var shopcart = [];
+        $(document).ready(function () {
+            outputCart();
+            $(".productItem").click(function (e) {
+                e.preventDefault();
+                var iteminfo = $(this.dataset)[0];
+                iteminfo.qty = 1;
+                var itemincart = false;
+                $.each(shopcart, function (index, value) {
+                    //console.log(index + '  ' + value.id);
+                    if (value.id == iteminfo.id) {
+                        value.qty = parseInt(value.qty) + parseInt(iteminfo.qty);
+                        itemincart = true;
+                    }
+                })
+                if (!itemincart) {
+                    shopcart.push(iteminfo);
+                }
+                sessionStorage["sca"] = JSON.stringify(shopcart);
+                outputCart();
+                ///
+            })
+
+            function outputCart() {
+                if (sessionStorage["sca"] != null) {
+                    shopcart = JSON.parse(sessionStorage["sca"].toString());
+                    console.log(sessionStorage["sca"]);
+                    $('#checkoutdiv').show();
+                }
+                var holderHTML = '';
+                var total = 0;
+                var itemCnt = 0;
+                $.each(shopcart, function (index, value) {
+                    console.log(value);
+                    var stotal = value.qty * value.price;
+                    total += stotal;
+                    itemCnt += parseInt(value.qty);
+                    holderHTML += '<tr><td>' + value.qty + '</td><td>#' + value.id + ' ' + value.name + '(' + value.s + ')</td><td> ' + formatMoney(value.price) + ' </td><td class="text-xs-right"> ' + formatMoney(stotal) + '</td></tr>';
+                })
+                holderHTML += '<tr><td colspan="3" class="text-xs-right">Total</td><td class="text-xs-right">' + formatMoney(total) + '</td></tr>';
+                $('#output').html(holderHTML);
+                $('.total').html(formatMoney(total));
+                $('.items').html(itemCnt);
+            }
+
+            function formatMoney(n) {
+                return '₹';
+            }
+        })
+    </script>
+</body>
+
+</html>
