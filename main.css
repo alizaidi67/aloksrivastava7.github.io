@@ -1,6 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
+header[role="banner"] #logo-main {
+  display: block;
+  margin: auto;
+}
+#navbar-primary.navbar-default {
+  background: transparent;
+  border: none;
+}
+#navbar-primary.navbar-default .navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+#navbar-primary.navbar-default .navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
+#navbar-primary.navbar-default .navbar-nav > li > a {
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+#navbar-primary.navbar-default .navbar-nav > li > a:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+
 * {
   box-sizing: border-box;
 }
